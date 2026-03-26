@@ -19,7 +19,7 @@ app.add_middleware(
 )  
   
 # ================= DATABASE =================  
-MONGO_URL = os.getenv("mongodb+srv://ankushgupta4747_db_user:m7VD2QjSzpReH1kW@ankush7.o7ginho.mongodb.net/queue_db?retryWrites=true&w=majority&appName=Ankush7")  
+MONGO_URL =("mongodb+srv://ankushgupta4747_db_user:m7VD2QjSzpReH1kW@ankush7.o7ginho.mongodb.net/queue_db?retryWrites=true&w=majority&appName=Ankush7")  
   
 if not MONGO_URL:  
     raise Exception("MONGO_URL not set in environment variables")  
